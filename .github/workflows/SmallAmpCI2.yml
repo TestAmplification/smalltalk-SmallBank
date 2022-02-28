@@ -21,4 +21,4 @@ jobs:
       input_project_baseline: SmallBank
       input_project_directory: src
     secrets:
-      secret_github_token: ${{secrets.GITHUB_TOKEN}}
+      secret_github_token: ${{secrets.ACTIONS_SECRET}}
