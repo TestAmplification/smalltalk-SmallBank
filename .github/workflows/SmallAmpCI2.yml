@@ -3,6 +3,7 @@ name: SmallAmpCI2
 permissions:
   contents: write
   pull-requests: write  
+  repository-projects: write
   
 on:
   workflow_dispatch:
